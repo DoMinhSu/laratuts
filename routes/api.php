@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+//api sẽ có prefix là api trong RouteServiceProvider
+//api/first-api (prefix: api)
+Route::get('/first-api',function(){
+    return "ádasdasd";
+});
