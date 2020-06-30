@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 //The Basics
     //Rounting
+    //Những route này cung cấp các tính năng liên quan về middleware group, session state and CSRF protection
 Route::get('/hello', 'HelloController@index');
